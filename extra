@@ -92,3 +92,30 @@ Generate React App
 > cd firstapp
 > npm start
 > localhost:3000
+
+/////
+functional
+ > Dumb component
+ > Non Logical
+ > Display component
+ > light in weight
+
+class 
+ > logical component
+ > api 
+ > logic
+ > event
+ > display
+
+
+hooks
+
+
+
+function add(a,b){
+    var out = [a,b]
+    return out
+}
+
+add(1,2)
+2
