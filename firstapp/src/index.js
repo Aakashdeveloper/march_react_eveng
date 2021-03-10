@@ -1,18 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
-import Footer from './Footer';
+import Home from './component/Home';
 
-
-const App =() => {
-    return(
-        <div>
-            <Header/>
-            <h1>Hi from react</h1>
-            <h2>Nareshit</h2>
-            <Footer/>
-        </div>
-    )
-}
-
-ReactDOM.render(<App/>,document.getElementById('root'))
+ReactDOM.render(<Home/>,document.getElementById('root'))

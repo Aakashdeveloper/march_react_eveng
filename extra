@@ -99,6 +99,7 @@ functional
  > Non Logical
  > Display component
  > light in weight
+ > cannot maintain the state
 
 class 
  > logical component
@@ -106,6 +107,7 @@ class
  > logic
  > event
  > display
+ > can maintain the state
 
 
 hooks
@@ -119,3 +121,15 @@ function add(a,b){
 
 add(1,2)
 2
+
+State 
+> Act like a local variable
+> scope is inside the component itself
+> any data interaction will happen through state
+> we can update the data of state
+
+Props
+> it help to transfer data from one component to other
+> we cannot change the value of state
+
+State can we exchanged only between the nested component
