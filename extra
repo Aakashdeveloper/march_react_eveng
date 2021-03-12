@@ -133,3 +133,44 @@ Props
 > we cannot change the value of state
 
 State can we exchanged only between the nested component
+
+
+map
+filter 
+indexof
+
+var a = [5,3,35,6,45,3,42,34,3,24,35]
+a.map((data) => { return data*2})
+(11) [10, 6, 70, 12, 90, 6, 84, 68, 6, 48, 70]
+
+var a = [5,3,35,6,45,3,42,34,3,24,35]
+a.filter((data) => { return data>25})
+(5) [35, 45, 42, 34, 35]
+
+var a = [5,3,35,6,45,3,42,34,3,24,35]
+undefined
+a.indexOf(35)
+2
+a.indexOf(10)
+-1
+a.indexOf(5)
+0
+a.indexOf("a")
+-1
+
+var a= [0,1,2,3]
+a.map((data) =>  {return data*2})
+[0,2,4,6]
+a.filter((data) =>  {return data*2})
+[1,2,3]
+
+
+parent => child (props)
+child => parent (props with function)
+
+function add(a){
+    return a+1
+}
+
+
+add(1)
