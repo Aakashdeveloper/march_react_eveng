@@ -171,6 +171,10 @@ function add(a){
     return a+1
 }
 
+history > to navigate/redirect
+location > to get query params
+match > to get params
+
 
 add(1)
 
@@ -187,3 +191,7 @@ add(1)
 (get) triptype>       https://developerfunnel.herokuapp.com/booking
 (get) bookingdetails> https://developerfunnel.herokuapp.com/allBooking
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
+
+withRouter
+
+npm i react-router-dom react-tabs

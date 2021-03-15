@@ -1,14 +1,16 @@
 import React from 'react';
 
-const PostDetails = () => {
+const PostDetails = (props) => {
+    console.log(props)
     return(
         <div className="panel panel-info">
             <div className="panel-heading">
-                <h2>PostDetails Page</h2>
+                <h2>{props.match.params.subject} Details Page</h2>
             </div>
             <div className="panel-body">
-                <h2>PostDetails Page</h2>
-                <p>PostDetails Page is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+                <h2>{props.match.params.subject} Details Page</h2>
+                <p>{props.match.params.subject} Page is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+                <p>You are on page no {(props.location.search).split('=')[1]}</p>
             </div>
         </div>
     )
