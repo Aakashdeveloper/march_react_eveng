@@ -1,17 +1,31 @@
 import React, { Component } from 'react';
-import './QuickSearch.css';
+import QuickDisplay from './QuickDisplay';
+
+const url = "https://developerfunnel.herokuapp.com/booking"
 
 class QuickSearch extends Component{
     constructor(){
         super()
 
-        this.state={}
+        this.state={
+            tripType:''
+        }
     }
 
     render(){
         return(
-            <div>QuickSearch</div>
+            <div>
+                <QuickDisplay tripdata={this.state.tripType}/>
+            </div>
         )
+    }
+
+    componentDidMount(){
+        fetch(url)
+        .then((res) => res.json())
+        .then((data) => {
+            this.setState({tripType:data})
+        })
     }
 
 }

@@ -22,7 +22,7 @@ React-Redux =1
 Testing Jest Enzime
 React-Saga -1
 React-with-typescript-1
---------NOT--------------
+--------Backend NOT--------------
 API
 GarphQL
 Login/Logout
@@ -195,3 +195,12 @@ add(1)
 withRouter
 
 npm i react-router-dom react-tabs
+
+
+string literal
+var a = 10
+var b = "My age is "+a
+"My age is 10"
+
+var c = `My age is ${a}`
+"My age is 10"
