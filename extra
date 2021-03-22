@@ -111,8 +111,6 @@ class
 
 hooks
 
-
-
 function add(a,b){
     var out = [a,b]
     return out
@@ -204,3 +202,10 @@ var b = "My age is "+a
 
 var c = `My age is ${a}`
 "My age is 10"
+
+///////
+mock api
+////////
+> install one global package 
+    > npm i -g json-server
+> json-server --watch db.json --port 9080

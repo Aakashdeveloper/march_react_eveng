@@ -4,7 +4,9 @@ import Footer from './Footer';
 import {BrowserRouter, Route} from 'react-router-dom';
 import Home from './Home/Home';
 import ListingApi from './Listing/listingApi';
-import HotelDetails from './details/hotelDetails'
+import HotelDetails from './details/hotelDetails';
+import BookingApi from './booking/bookingApi';
+import PlaceBooking from './booking/placeBooking';
 
 const Routing = () => {
     return(
@@ -13,6 +15,8 @@ const Routing = () => {
                 <Route exact path="/" component={Home}/>
                 <Route path="/list/:id" component={ListingApi}/>
                 <Route path="/details/:id" component={HotelDetails}/>
+                <Route path="/booking/:hotel_name" component={PlaceBooking}/>
+                <Route path="/viewBooking" component={BookingApi}/>
             <Footer/>
         </BrowserRouter>
     )
