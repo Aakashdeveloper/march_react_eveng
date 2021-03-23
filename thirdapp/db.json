@@ -1,12 +1,18 @@
 {
-    "bookings":[
-        {
-            "id":1,
-            "name":"John"
-        },
-        {
-            "id":2,
-            "name":"Nikita"
-        }
-    ]
+  "bookings": [
+    {
+      "id": 856037,
+      "hotel_name": "Hometel Chandigarh",
+      "name": "Bhumika",
+      "phone": "7868775",
+      "cost": "2419"
+    },
+    {
+      "id": 5797,
+      "hotel_name": "Vivaan - The Sun Rise",
+      "name": "Karan",
+      "phone": "8678676",
+      "cost": "3134"
+    }
+  ]
 }
