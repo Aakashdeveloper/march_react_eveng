@@ -7,8 +7,8 @@ Npm
 React = 3
 Mock API
 json-server
-////////////////////////
 React-JWT(Login Logout)-2
+////////////////////////
 React-GarphQL-1
 Depolyment
 -> MERN
@@ -18,6 +18,7 @@ Depolyment
 Github
 React_hooks -1
 Basic React Native=1
+
 React-Redux =1
 React-Redux =1
 Testing Jest Enzime
@@ -229,3 +230,7 @@ mock api
 /******UserInfo*****/
 (GET) => http://localhost:5000/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
+
+https://docs.github.com/en/developers/apps/authorizing-oauth-apps
+
+https://www.youtube.com/c/DeveloperFunnel/videos
