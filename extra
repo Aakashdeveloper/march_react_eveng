@@ -15,11 +15,11 @@ Depolyment
 -> heroku
 -> Nginx
 Github
-////////////////////////
 React_hooks -1
+////////////////////////
 Basic React Native=1
-
 React-Redux =1
+
 React-Redux =1
 Testing Jest Enzime
 React-Saga -1
@@ -259,3 +259,8 @@ git pull
 
 docker build . -t appname
 docker run -p 9800:3000 appname
+
+///////
+> npm i -g create-react-native-app
+> create-react-native-app mymobi
+> npm run web
