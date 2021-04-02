@@ -16,10 +16,9 @@ Depolyment
 -> Nginx
 Github
 React_hooks -1
-////////////////////////
 Basic React Native=1
+////////////////////////
 React-Redux =1
-
 React-Redux =1
 Testing Jest Enzime
 React-Saga -1
@@ -264,3 +263,12 @@ docker run -p 9800:3000 appname
 > npm i -g create-react-native-app
 > create-react-native-app mymobi
 > npm run web
+
+maintain state and share data
+code readability
+testing
+
+View
+Action
+Reducer
+store
