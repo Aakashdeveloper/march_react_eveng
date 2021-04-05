@@ -272,3 +272,8 @@ View
 Action
 Reducer
 store
+
+npm i redux react-redux redux-logger react-slick redux-promise
+
+//test
+npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
