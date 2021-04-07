@@ -11,7 +11,8 @@ class HotelDetails extends Component{
         super()
 
         this.state={
-            details:''
+            details:'',
+            tripid: sessionStorage.getItem('tripid')?sessionStorage.getItem('tripid'):'1'
         }
     }
     render(){
@@ -53,7 +54,7 @@ class HotelDetails extends Component{
                                     <h3>Phn: 97776642443</h3>
                                 </TabPanel>
                             </Tabs>
-                        <Link to="/" className="btn btn-danger">Back</Link> &nbsp;
+                        <Link to={`/list/${this.state.tripid}`} className="btn btn-danger">Back</Link> &nbsp;
                         <Link to={`/booking/${details.name}`} className="btn btn-success">Proceed</Link>
                     </div>
                 </div> 
